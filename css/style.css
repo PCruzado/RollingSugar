@@ -132,3 +132,31 @@ footer p {
     height: 180px;
   }
 }
+
+.text-orange {
+  color: #ff914d;
+}
+
+.btn-orange {
+  background-color: #ff914d;
+  border: none;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.btn-orange:hover {
+  background-color: #e6732f;
+}
+
+.receta-card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.receta-card {
+  transition: transform 0.3s ease;
+}
+
+.receta-card:hover {
+  transform: scale(1.03);
+}
