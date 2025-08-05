@@ -1,13 +1,15 @@
 /* GENERAL */
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: #fff8f2;
   margin: 0;
   padding: 0;
   color: #333;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: #5c3b1e;
 }
 
@@ -68,8 +70,8 @@ section {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.nombre-categoria{
-    text-align: center;
+.nombre-categoria {
+  text-align: center;
 }
 .categorias img:hover {
   transform: scale(1.06);
@@ -159,4 +161,17 @@ footer p {
 
 .receta-card:hover {
   transform: scale(1.03);
+}
+
+.card .btn.btn-primary {
+  background-color: #ff7f3f !important;
+  border-color: #ff7f3f !important;
+  color: white !important;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.card .btn.btn-primary:hover {
+  background-color: #e86424 !important;
+  border-color: #e86424 !important;
+  transform: scale(1.05);
 }
