@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rolling Sugar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Rolling Sugar 🍬</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/recetas.html">Recetas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/Contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- CARRUSEL -->
+    <div id="carouselRecetas" class="carousel slide mb-5" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/alfajorcitosdemaicena.jpg" class="d-block w-100" alt="Alfajores de Maicena">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/cookies-rolling.jpg" class="d-block w-100" alt="Cookies">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/Alfajor-rolling.jpg" class="d-block w-100" alt="Alfajor de Chocolate">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/pastafrola-rolling.jpg" class="d-block w-100" alt="Pastafrola">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/croissant.jpg" class="d-block w-100" alt="Croissant">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselRecetas" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselRecetas" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselRecetas" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselRecetas" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselRecetas" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselRecetas" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselRecetas" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      </div>
+    </div>
+
+    <!-- CTA BOTON -->
+    <div class="text-center mb-5">
+      <a href="./pages/productos.html" class="btn btn-primary btn-lg">Ver productos</a>
+    </div>
+
+    <!-- CATEGORIAS -->
+    <section class="categorias">
+  <h2>Elegí qué querés cocinar</h2>
+  <div class="contenedor-categorias">
+    <div class="categoria">
+      <img src="./img/alfajorcitosdemaicena.jpg" alt="Alfajores">
+      <p class="nombre-categoria">Alfajores</p>
+    </div>
+    <div class="categoria">
+      <img src="./img/cookies-rolling.jpg" alt="Cookies">
+      <p class="nombre-categoria">Cookies</p>
+    </div>
+    <div class="categoria">
+      <img src="./img/Alfajor-rolling.jpg" alt="Alfajor de chocolate">
+      <p class="nombre-categoria">Alfajores de chocolate</p>
+    </div>
+    <div class="categoria">
+      <img src="./img/pastafrola-rolling.jpg" alt="Pastafrola">
+      <p class="nombre-categoria">Pastafrola</p>
+    </div>
+    <div class="categoria">
+      <img src="./img/croissant.jpg" alt="Croissant">
+      <p class="nombre-categoria">Croissant</p>
+    </div>
+    <div class="categoria">
+      <img src="./img/galletitas-de-limon.jpg" alt="Galletitas de limón">
+      <p class="nombre-categoria">Galletitas de limón</p>
+    </div>
+    <div class="categoria">
+      <img src="./img/tarta-de-queso.jpg" alt="Tarta de queso">
+      <p class="nombre-categoria">Tarta de queso</p>
+    </div>
+  </div>
+</section>
+
+<!-- FRASE MOTIVACIONAL -->
+<section class="frase-motivacional text-white text-center py-5">
+  <h2>Transforma ingredientes en emociones…</h2>
+  <p>¡Cada bocado cuenta una historia!</p>
+</section>
+
+
+<!-- COMUNIDAD -->
+<section class="container text-center my-5">
+  <h2 class="mb-4">Nuestra comunidad</h2>
+  <div class="row g-3">
+    <div class="col-6 col-md-3">
+      <img src="./img/tarta-de-nata.jpg" class="img-fluid rounded" alt="Comunidad 1">
+    </div>
+    <div class="col-6 col-md-3">
+      <img src="./img/cupcake.jpg" class="img-fluid rounded" alt="Comunidad 2">
+    </div>
+    <div class="col-6 col-md-3">
+      <img src="./img/cookies-comunidad.jpg" class="img-fluid rounded" alt="Comunidad 3">
+    </div>
+    <div class="col-6 col-md-3">
+      <img src="./img/croissants-comunidad.jpg" class="img-fluid rounded" alt="Comunidad 4">
+    </div>
+  </div>
+</section>
+
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-white text-center py-4">
+      <p>&copy; 2025 Rolling Sugar - Todos los derechos reservados</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

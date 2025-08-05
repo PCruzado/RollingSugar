@@ -1,0 +1,134 @@
+/* GENERAL */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff8f2;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+h1, h2, h3 {
+  color: #5c3b1e;
+}
+
+a {
+  text-decoration: none;
+  color: #ff914d;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #e66b00;
+}
+
+section {
+  padding: 40px 0;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: #fff3e6;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand,
+.nav-link {
+  color: #5c3b1e !important;
+  font-weight: 500;
+}
+
+/* FRASE MOTIVACIONAL */
+.frase-motivacional {
+  background-color: #fbb05f;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.8rem;
+  font-style: italic;
+  color: #bc6717;
+  transition: all 0.4s ease-in-out;
+}
+
+/* CARRUSEL */
+.carousel-inner img {
+  width: 100%;
+  height: 65vh;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* "ELEGÍ QUÉ QUERÉS COCINAR" */
+.categorias img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 3px solid #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.nombre-categoria{
+    text-align: center;
+}
+.categorias img:hover {
+  transform: scale(1.06);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+}
+
+/* SECCIÓN COMUNIDAD */
+.img-fluid.rounded {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 3px solid #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.img-fluid.rounded:hover {
+  transform: scale(1.06);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+}
+
+/* FOOTER */
+footer {
+  background-color: transparent;
+  color: #5c3b1e;
+  font-size: 0.9rem;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer h5 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .carousel-inner img {
+    height: 45vh;
+  }
+
+  .frase-motivacional {
+    font-size: 1.5rem;
+  }
+
+  .categorias img,
+  .img-fluid.rounded {
+    height: 220px;
+  }
+}
+
+@media (max-width: 576px) {
+  .categorias img,
+  .img-fluid.rounded {
+    height: 180px;
+  }
+}
